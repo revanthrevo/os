@@ -80,6 +80,9 @@
                                 <div class="name">
                                     <input type="text" name="Phone No" placeholder="Phone Number" id="mobile" required="">
                                 </div>
+                                <div class="name">
+                                    <input type="text" name="companyName" placeholder="Company Name" id="companyName">
+                                </div>
                                 <button type="submit" class="rts-btn btn-primary">Book Appointment</button>
                               </form>
                         </div>
@@ -226,7 +229,7 @@ beside Victory Photo studio, Basheer Bagh, Hyderabad, Telangana 500063.
             
                 // Only include lastName, email, and mobile in the lead data, others set to null
                 const leadData = {
-                        companyName: null,
+                        companyName: document.getElementById('companyName').value,
                         title: null,
                         firstName: null,
                         lastName: document.getElementById('lastName').value,
