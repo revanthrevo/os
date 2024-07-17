@@ -82,6 +82,7 @@
                                 </div>
                                 <div class="name">
                                     <input type="text" name="companyName" placeholder="Company Name" id="companyName">
+                                    <textarea type="text" name="needs" placeholder="Type Your Message" id="needs"></textarea>
                                 </div>
                                 <button type="submit" class="rts-btn btn-primary">Book Appointment</button>
                               </form>
@@ -238,7 +239,7 @@ beside Victory Photo studio, Basheer Bagh, Hyderabad, Telangana 500063.
                         designation: null,
                         city: null,
                         state: null,
-                        needs: null,
+                        needs: document.getElementById('needs').value,
                         source: "Website"
                 };
               //  console.log(leadData)
