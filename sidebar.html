@@ -1,0 +1,48 @@
+<!-- single wizered start -->
+<div class="rts-single-wized Categories service">
+    <div class="wized-header">
+        <h5 class="title">E-commerce Marketplace</h5>
+    </div>
+    <div class="wized-body">
+        <!-- single categoris -->
+        <ul class="single-categories">
+            <li><a href="amazon-marketplace.html">Amazon <i class="far fa-long-arrow-right"></i></a></li>
+        </ul>
+        <!-- single categoris End -->
+        <!-- single categoris -->
+        <ul class="single-categories">
+            <li><a href="flipkart-marketplace.html">Flipkart <i class="far fa-long-arrow-right"></i></a></li>
+        </ul>
+        <!-- single categoris End -->
+        <!-- single categoris -->
+        <ul class="single-categories">
+            <li><a href="jiomart-account-management-services.html">Jio Mart <i class="far fa-long-arrow-right"></i></a></li>
+        </ul>
+        <!-- single categoris End -->
+        <!-- single categoris -->
+        <ul class="single-categories">
+            <li><a href="meesho-marketplace.html">Meesho <i class="far fa-long-arrow-right"></i></a></li>
+        </ul>
+        <!-- single categoris End -->
+    </div>
+</div>
+<!-- single wizered End -->
+<!-- single wizered start -->
+<div class="rts-single-wized contact service">
+    <div class="wized-body">
+        <h5 class="title">Need Help? We Are Here
+            To Help You</h5>
+        <a class="rts-btn btn-primary" href="tel:+917075517662">+91 7075517662</a>
+    </div>
+</div>
+<!-- single wizered End -->
+<script type="text/javascript">
+    jQuery(function($) {
+        var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
+        jQuery('.rts-single-wized.service .single-categories li a').each(function() {
+            if (this.href === path) {
+                $(this).addClass('sidebar-active');
+            }
+        });
+    });
+</script>
