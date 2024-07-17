@@ -36,8 +36,8 @@
         },
 
         swiperActivation: function (){
-          $(document).ready(function() {
-            var swiper = new Swiper(".mySwiper", {
+         /*$(document).ready(function() {
+          var swiper = new Swiper(".mySwiper", {
                 loop: false,
                 loopedSlides: 50,
                 autoHeight: true,
@@ -49,7 +49,34 @@
                     delay: 4000,
                 },                
               });
-          });
+          });*/
+          $(document).ready(function() {
+            var swiper = new Swiper(".mySwiper", {
+                loop: true,
+                autoHeight: true,
+                shortSwipes: false,
+                longSwipes: false,
+                speed: 500,
+                autoplay: {
+                    delay: 3000
+                },
+                breakpoints: {
+                    1200: {
+                        slidesPerView: 3,
+                        spaceBetween: 30
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    576: {
+                        slidesPerView: 1,
+                        spaceBetween: 10
+                    }
+                }
+            });
+        });
+        
           $(document).ready(function() {
             var swiper = new Swiper(".testimonial-1", {
               slidesPerView: 2.5,
