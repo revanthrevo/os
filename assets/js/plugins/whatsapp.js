@@ -6,7 +6,7 @@
     var options = {
     "enabled":true,
     "chatButtonSetting":{
-        "backgroundColor":"#00e785",
+        "backgroundColor":"#181c32",
         "ctaText":"Chat with us",
         "borderRadius":"25",
         "marginLeft": "0",
@@ -18,7 +18,7 @@
     "brandSetting":{
         "brandName":"Online Shahar",
         "brandSubTitle":"undefined",
-        "brandImg":"assets/images/logo/logo2.png",
+        "brandImg":"assets/images/fav.png",
         "welcomeText":"Hi there!\nHow can I help you?",
         "messageText":"Hello, %0A I have a question about {{page_title}}",
         "backgroundColor":"#181c32",
